@@ -1,0 +1,29 @@
+div.gameMap {
+    background-image: url(tiles/GreenGrass/GreenGrass_01.png);
+    background-repeat: repeat;
+    border: solid 1px;
+    position: relative; 
+}
+
+div.defaultTile {
+    display: block;
+    float: left;
+    height: 32px;
+    position: relative;
+    width: 32px;
+}
+
+div.gridElement {
+    background-color: #D1EFE6;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+div.gridColumn {
+    width: 1px;
+}
+
+div.gridRow {
+    height: 1px;
+}

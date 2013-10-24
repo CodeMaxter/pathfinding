@@ -1,0 +1,46 @@
+{
+    "name": "Kyridanccelo",
+    "tilePosition": 66,
+    "positions": [{
+        "name": "up",
+        "src": "resources/players/kyridanccelo/images/MarkBack01.png"
+    }, {
+        "name": "down",
+        "src": "resources/players/kyridanccelo/images/MarkFront01.png"
+    }, {
+        "name": "right",
+        "src": "resources/players/kyridanccelo/images/MarkRight01.png"
+    }, {
+        "name": "left",
+        "src": "resources/players/kyridanccelo/images/MarkLeft01.png"
+    }],
+    "animations": [{
+        "name": "down",
+        "images": [{
+            "src": "resources/players/kyridanccelo/images/MarkFront02.png"
+        }, {
+            "src": "resources/players/kyridanccelo/images/MarkFront03.png"
+        }]
+    }, {
+        "name": "up",
+        "images": [{
+            "src": "resources/players/kyridanccelo/images/MarkBack02.png"
+        }, {
+            "src": "resources/players/kyridanccelo/images/MarkBack03.png"
+        }]
+    }, {
+        "name": "right",
+        "images": [{
+            "src": "resources/players/kyridanccelo/images/MarkRight02.png"
+        }, {
+            "src": "resources/players/kyridanccelo/images/MarkRight03.png"
+        }]
+    }, {
+        "name": "left",
+        "images": [{
+            "src": "resources/players/kyridanccelo/images/MarkLeft02.png"
+        }, {
+            "src": "resources/players/kyridanccelo/images/MarkLeft03.png"
+        }]
+    }]
+}

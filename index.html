@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+    <head><!--  ščřžýŠČŘŽÝ -->
+        <meta name="generator" content="PSPad editor, www.pspad.com" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <title>Path Finding</title>
+
+        <link type="text/css" rel="stylesheet" href="resources/gamemap/basicmap.css" />
+        <link type="text/css" rel="stylesheet" href="resources/players/player.css" />
+
+        <script type="text/javascript" src="javascript/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/Class.js"></script>
+        <script type="text/javascript" src="javascript/engine/MapBuilder.js"></script>
+        <script type="text/javascript" src="javascript/engine/Map.js"></script>
+        <script type="text/javascript" src="javascript/engine/Animation.js"></script>
+        <script type="text/javascript" src="javascript/engine/Player.js"></script>
+        <script type="text/javascript" src="javascript/engine/ArrayList.js"></script>
+        <script type="text/javascript" src="javascript/engine/Node.js"></script>
+        <script type="text/javascript" src="javascript/engine/AStar.js"></script>
+        <script type="text/javascript" src="javascript/index.js"></script>
+    </head>
+    <body>
+        <form id="frmCreateMap" method="post" action="">
+            <div>
+                <button type="button" id="cmdCreateMap">Create Map</button>
+                <button type="button" id="cmdDestroyMap">Destroy Map</button>
+                <button type="button" id="cmdShowGrid">Show Grid</button>
+                <button type="button" id="cmdHideGrid">Hide Grid</button>
+                <button type="button" id="cmdCreatePlayer">Create Player</button>
+            </div>
+        </form>
+
+        <div id="mapContainer"></div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+/**
+ * @version 1.0.0.1
+ * @author Alvaro José Agámez Licha
+ * Todos los Derechos Reservados
+ */
+.player {
+    background-repeat: no-repeat;
+    /*border: 1px solid red;*/
+    height: 64px;
+    width: 32px;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
